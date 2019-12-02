@@ -1,0 +1,40 @@
+﻿body {
+}
+#themChiTiet {
+   width:30%;
+   height:25%;
+}
+.btn-success{
+   margin-left: 3%;
+   margin-top: 1%;
+}
+#noidung_GridView1 {
+    margin-top:4%;
+
+}
+.table {
+    margin-left: 3%;
+}
+#noidung_formview1 {
+    margin-left: 18%;
+    margin-top: 2%;
+}
+#noidung_Table1 {
+    margin-left: 29%;
+    margin-top: 4%;
+}
+#noidung_edit{
+    margin-top:0%;
+}
+#noidung_btnThemMau {
+    margin-top: 0%;
+}
+#noidung_Refesh {
+    margin-left: 18%;
+}
+#noidung_dsMau {
+    margin-left: -9%;
+}
+
+
+
