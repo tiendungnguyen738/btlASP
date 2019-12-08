@@ -318,5 +318,93 @@ namespace shopASP
             cmd.ExecuteNonQuery();
             con.Close();
         }
+
+        //-------------------------------------Login--------------------------------------------------------------
+        public int checkLogin(string name, string password)
+        {
+            SqlDataAdapter da = null;
+            DataTable dt = null;
+            con.Open();
+            string sqlKT = "select role_name from dbo.employees  inner join roles on employees.role_id = roles.role_id  where username = '" + name + "' and password ='" + password + "'";
+
+            da = new SqlDataAdapter(sqlKT, con);
+            dt = new DataTable();
+
+            da.Fill(dt);
+            try
+            {
+                string role = dt.Rows[0]["role_name"].ToString();
+
+                if (dt.Rows.Count > 0 && role.Equals("Admin"))
+                {
+                    return 1;
+                }
+                if (dt.Rows.Count > 0 && role.Equals("User"))
+                {
+                    return 2;
+                }
+            }
+            catch (Exception e1)
+            {
+
+            }
+            con.Close();
+            return -1;
+
+        }
+        public User getUser(string name, string password)
+        {
+
+
+            string sqlKT = "select * from dbo.employees  inner join roles on employees.role_id = roles.role_id  where username = '" + name + "' and password ='" + password + "'";
+            User u = null;
+            //Thuc thi cau lenh
+            SqlCommand cmd = new SqlCommand(sqlKT, con);
+            //Doc du lieu tren table trong sql
+            SqlDataReader rd = cmd.ExecuteReader();
+            if (rd.Read())
+            {
+                u = new User();
+
+                u.employee_id = (int)rd["employee_id"];
+                u.full_name = (string)rd["fullname"];
+                u.username = (string)rd["username"];
+                u.address = (string)rd["address"];
+                u.email = (string)rd["email"];
+                u.phone = (String)rd["phone"];
+
+
+            }
+            //Dong bo quan ly ket noi
+            con.Close();
+            return u;
+        }
+        public void insertAccount(User user)
+        {
+            con.Open();
+            string sqlInsert = "insert into dbo.employees values(@fullname,@address,@gender,@idcard,@role,@email,@username,@password)";
+            SqlCommand cmd = new SqlCommand(sqlInsert, con);
+            cmd.Parameters.AddWithValue("fullname", user.full_name);
+            cmd.Parameters.AddWithValue("address", user.address);
+            cmd.Parameters.AddWithValue("gender", user.sex);
+            cmd.Parameters.AddWithValue("idcard", user.idccard);
+            cmd.Parameters.AddWithValue("role", user.role_id);
+            cmd.Parameters.AddWithValue("email", user.email);
+            cmd.Parameters.AddWithValue("username", user.username);
+            cmd.Parameters.AddWithValue("password", user.password);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+        public DataTable GetTable(int id)
+        {
+            SqlDataAdapter da = null;
+            DataTable dt = null;
+            con.Open();
+            string sql = "select * from dbo.product where product_id='" + id + "'";
+            da = new SqlDataAdapter(sql, con);
+            dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }

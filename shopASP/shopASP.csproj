@@ -1675,7 +1675,200 @@
     <Content Include="editColor.aspx" />
     <Content Include="editProduct.aspx" />
     <Content Include="editProductDetail.aspx" />
+    <Content Include="HomeXQ\blog.aspx" />
+    <Content Include="HomeXQ\cart.aspx" />
+    <Content Include="HomeXQ\checkout.aspx" />
+    <Content Include="HomeXQ\contact.aspx" />
+    <Content Include="HomeXQ\Default.aspx" />
+    <Content Include="HomeXQ\images\600_mi9_tim_800x800_2.jpg" />
+    <Content Include="HomeXQ\images\adv_1.png" />
+    <Content Include="HomeXQ\images\adv_2.png" />
+    <Content Include="HomeXQ\images\adv_3.png" />
+    <Content Include="HomeXQ\images\Apps-system-software-update-icon %281%29.png" />
+    <Content Include="HomeXQ\images\Apps-system-software-update-icon.png" />
+    <Content Include="HomeXQ\images\banner_2_background.jpg" />
+    <Content Include="HomeXQ\images\banner_2_product.png" />
+    <Content Include="HomeXQ\images\banner_background.jpg" />
+    <Content Include="HomeXQ\images\banner_product.png" />
+    <Content Include="HomeXQ\images\best_1.png" />
+    <Content Include="HomeXQ\images\best_2.png" />
+    <Content Include="HomeXQ\images\best_3.png" />
+    <Content Include="HomeXQ\images\best_4.png" />
+    <Content Include="HomeXQ\images\best_5.png" />
+    <Content Include="HomeXQ\images\best_6.png" />
+    <Content Include="HomeXQ\images\blog_1.jpg" />
+    <Content Include="HomeXQ\images\blog_2.jpg" />
+    <Content Include="HomeXQ\images\blog_3.jpg" />
+    <Content Include="HomeXQ\images\blog_4.jpg" />
+    <Content Include="HomeXQ\images\blog_5.jpg" />
+    <Content Include="HomeXQ\images\blog_6.jpg" />
+    <Content Include="HomeXQ\images\blog_7.jpg" />
+    <Content Include="HomeXQ\images\blog_8.jpg" />
+    <Content Include="HomeXQ\images\blog_9.jpg" />
+    <Content Include="HomeXQ\images\blog_single_background.jpg" />
+    <Content Include="HomeXQ\images\brands_1.jpg" />
+    <Content Include="HomeXQ\images\brands_2.jpg" />
+    <Content Include="HomeXQ\images\brands_3.jpg" />
+    <Content Include="HomeXQ\images\brands_4.jpg" />
+    <Content Include="HomeXQ\images\brands_5.jpg" />
+    <Content Include="HomeXQ\images\brands_6.jpg" />
+    <Content Include="HomeXQ\images\brands_7.jpg" />
+    <Content Include="HomeXQ\images\brands_8.jpg" />
+    <Content Include="HomeXQ\images\Button-Close-icon %281%29.png" />
+    <Content Include="HomeXQ\images\Button-Close-icon.png" />
+    <Content Include="HomeXQ\images\cart.png" />
+    <Content Include="HomeXQ\images\char_1.png" />
+    <Content Include="HomeXQ\images\char_2.png" />
+    <Content Include="HomeXQ\images\char_3.png" />
+    <Content Include="HomeXQ\images\char_4.png" />
+    <Content Include="HomeXQ\images\contact_1.png" />
+    <Content Include="HomeXQ\images\contact_2.png" />
+    <Content Include="HomeXQ\images\contact_3.png" />
+    <Content Include="HomeXQ\images\deals.png" />
+    <Content Include="HomeXQ\images\download %281%29.jpg" />
+    <Content Include="HomeXQ\images\download %282%29.jpg" />
+    <Content Include="HomeXQ\images\download %283%29.jpg" />
+    <Content Include="HomeXQ\images\download %284%29.jpg" />
+    <Content Include="HomeXQ\images\download %285%29.jpg" />
+    <Content Include="HomeXQ\images\download %286%29.jpg" />
+    <Content Include="HomeXQ\images\download %287%29.jpg" />
+    <Content Include="HomeXQ\images\download %288%29.jpg" />
+    <Content Include="HomeXQ\images\download.jpg" />
+    <Content Include="HomeXQ\images\featured_1.png" />
+    <Content Include="HomeXQ\images\featured_2.png" />
+    <Content Include="HomeXQ\images\featured_3.png" />
+    <Content Include="HomeXQ\images\featured_4.png" />
+    <Content Include="HomeXQ\images\featured_5.png" />
+    <Content Include="HomeXQ\images\featured_6.png" />
+    <Content Include="HomeXQ\images\featured_7.png" />
+    <Content Include="HomeXQ\images\featured_8.png" />
+    <Content Include="HomeXQ\images\heart.png" />
+    <Content Include="HomeXQ\images\images1.jpg" />
+    <Content Include="HomeXQ\images\images2.jpg" />
+    <Content Include="HomeXQ\images\iphone-7-rose-gold.jpg" />
+    <Content Include="HomeXQ\images\iphone_xs_64gb.jpg" />
+    <Content Include="HomeXQ\images\logos_1.png" />
+    <Content Include="HomeXQ\images\logos_2.png" />
+    <Content Include="HomeXQ\images\logos_3.png" />
+    <Content Include="HomeXQ\images\logos_4.png" />
+    <Content Include="HomeXQ\images\mail.png" />
+    <Content Include="HomeXQ\images\mail_white.png" />
+    <Content Include="HomeXQ\images\marker.png" />
+    <Content Include="HomeXQ\images\new_1.jpg" />
+    <Content Include="HomeXQ\images\new_10.jpg" />
+    <Content Include="HomeXQ\images\new_2.jpg" />
+    <Content Include="HomeXQ\images\new_3.jpg" />
+    <Content Include="HomeXQ\images\new_4.jpg" />
+    <Content Include="HomeXQ\images\new_5.jpg" />
+    <Content Include="HomeXQ\images\new_6.jpg" />
+    <Content Include="HomeXQ\images\new_7.jpg" />
+    <Content Include="HomeXQ\images\new_8.jpg" />
+    <Content Include="HomeXQ\images\new_9.jpg" />
+    <Content Include="HomeXQ\images\new_single.png" />
+    <Content Include="HomeXQ\images\note_10_plus_xanh.jpg" />
+    <Content Include="HomeXQ\images\phone.png" />
+    <Content Include="HomeXQ\images\phone_white.png" />
+    <Content Include="HomeXQ\images\popular_1.png" />
+    <Content Include="HomeXQ\images\popular_2.png" />
+    <Content Include="HomeXQ\images\popular_3.png" />
+    <Content Include="HomeXQ\images\popular_4.png" />
+    <Content Include="HomeXQ\images\popular_5.png" />
+    <Content Include="HomeXQ\images\quote.png" />
+    <Content Include="HomeXQ\images\review_1.jpg" />
+    <Content Include="HomeXQ\images\review_2.jpg" />
+    <Content Include="HomeXQ\images\review_3.jpg" />
+    <Content Include="HomeXQ\images\search.png" />
+    <Content Include="HomeXQ\images\send.png" />
+    <Content Include="HomeXQ\images\shopping_cart.jpg" />
+    <Content Include="HomeXQ\images\shop_1.jpg" />
+    <Content Include="HomeXQ\images\shop_2.jpg" />
+    <Content Include="HomeXQ\images\shop_background.jpg" />
+    <Content Include="HomeXQ\images\single_1.jpg" />
+    <Content Include="HomeXQ\images\single_2.jpg" />
+    <Content Include="HomeXQ\images\single_3.jpg" />
+    <Content Include="HomeXQ\images\single_4.jpg" />
+    <Content Include="HomeXQ\images\trends_1.jpg" />
+    <Content Include="HomeXQ\images\trends_2.jpg" />
+    <Content Include="HomeXQ\images\trends_3.jpg" />
+    <Content Include="HomeXQ\images\trends_background.jpg" />
+    <Content Include="HomeXQ\images\user.png" />
+    <Content Include="HomeXQ\images\user.svg" />
+    <Content Include="HomeXQ\images\view_1.jpg" />
+    <Content Include="HomeXQ\images\view_2.jpg" />
+    <Content Include="HomeXQ\images\view_3.jpg" />
+    <Content Include="HomeXQ\images\view_4.jpg" />
+    <Content Include="HomeXQ\images\view_5.jpg" />
+    <Content Include="HomeXQ\images\view_6.jpg" />
+    <Content Include="HomeXQ\index.aspx" />
+    <Content Include="HomeXQ\js\blog_custom.js" />
+    <Content Include="HomeXQ\js\blog_single_custom.js" />
+    <Content Include="HomeXQ\js\cart_custom.js" />
+    <Content Include="HomeXQ\js\contact_custom.js" />
+    <Content Include="HomeXQ\js\custom-cart.js" />
+    <Content Include="HomeXQ\js\custom.js" />
+    <Content Include="HomeXQ\js\jquery-3.3.1.min.js" />
+    <Content Include="HomeXQ\js\product_custom.js" />
+    <Content Include="HomeXQ\js\regular_custom.js" />
+    <Content Include="HomeXQ\js\shop_custom.js" />
+    <Content Include="HomeXQ\plugins\easing\easing.js" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\css\fontawesome-all.css" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.svg" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.svg" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.svg" />
+    <Content Include="HomeXQ\plugins\greensock\animation.gsap.min.js" />
+    <Content Include="HomeXQ\plugins\greensock\ScrollToPlugin.min.js" />
+    <Content Include="HomeXQ\plugins\greensock\TimelineMax.min.js" />
+    <Content Include="HomeXQ\plugins\greensock\TweenMax.min.js" />
+    <Content Include="HomeXQ\plugins\Isotope\isotope.pkgd.min.js" />
+    <Content Include="HomeXQ\plugins\jquery-ui-1.12.1.custom\jquery-ui.css" />
+    <Content Include="HomeXQ\plugins\jquery-ui-1.12.1.custom\jquery-ui.js" />
+    <Content Include="HomeXQ\plugins\OwlCarousel2-2.2.1\ajax-loader.gif" />
+    <Content Include="HomeXQ\plugins\OwlCarousel2-2.2.1\animate.css" />
+    <Content Include="HomeXQ\plugins\OwlCarousel2-2.2.1\owl.carousel.css" />
+    <Content Include="HomeXQ\plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <Content Include="HomeXQ\plugins\OwlCarousel2-2.2.1\owl.theme.default.css" />
+    <Content Include="HomeXQ\plugins\OwlCarousel2-2.2.1\owl.video.play.png" />
+    <Content Include="HomeXQ\plugins\parallax-js-master\parallax.min.js" />
+    <Content Include="HomeXQ\plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\ajax-loader.gif" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\fonts\slick.svg" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\index.html" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\slick.css" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\slick.js" />
+    <Content Include="HomeXQ\product.aspx" />
+    <Content Include="HomeXQ\product_detail.aspx" />
+    <Content Include="HomeXQ\signup.aspx" />
+    <Content Include="HomeXQ\signup.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="HomeXQ\styles\blog_responsive.css" />
+    <Content Include="HomeXQ\styles\blog_single_responsive.css" />
+    <Content Include="HomeXQ\styles\blog_single_styles.css" />
+    <Content Include="HomeXQ\styles\blog_styles.css" />
+    <Content Include="HomeXQ\styles\bootstrap4\bootstrap.min.css" />
+    <Content Include="HomeXQ\styles\bootstrap4\bootstrap.min.js" />
+    <Content Include="HomeXQ\styles\bootstrap4\popper.js" />
+    <Content Include="HomeXQ\styles\cart_responsive.css" />
+    <Content Include="HomeXQ\styles\cart_styles.css" />
+    <Content Include="HomeXQ\styles\contact_responsive.css" />
+    <Content Include="HomeXQ\styles\contact_styles.css" />
+    <Content Include="HomeXQ\styles\main_styles.css" />
+    <Content Include="HomeXQ\styles\product_responsive.css" />
+    <Content Include="HomeXQ\styles\product_styles.css" />
+    <Content Include="HomeXQ\styles\regular_responsive.css" />
+    <Content Include="HomeXQ\styles\regular_styles.css" />
+    <Content Include="HomeXQ\styles\responsive.css" />
+    <Content Include="HomeXQ\styles\shop_responsive.css" />
+    <Content Include="HomeXQ\styles\shop_styles.css" />
+    <Content Include="HomeXQ\styles\style.css" />
+    <Content Include="HomeXQ\Style\images\computer.jpg" />
+    <Content Include="HomeXQ\Style\images\login.png" />
+    <Content Include="HomeXQ\XLaddCart.aspx" />
+    <Content Include="HomeXQ\XlAddOrder.aspx" />
+    <Content Include="HomeXQ\XLdelCart.aspx" />
+    <Content Include="HomeXQ\XLeditCart.aspx" />
     <Content Include="indexWeb.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="product-ad.aspx" />
     <Content Include="product-add-ad.aspx" />
     <Content Include="product-detail-ad.aspx" />
@@ -1908,12 +2101,71 @@
     <Compile Include="editProductDetail.aspx.designer.cs">
       <DependentUpon>editProductDetail.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HomeXQ\blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\product.aspx.cs">
+      <DependentUpon>product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\product_detail.aspx.cs">
+      <DependentUpon>product_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\XLaddCart.aspx.cs">
+      <DependentUpon>XLaddCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\XlAddOrder.aspx.cs">
+      <DependentUpon>XlAddOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\XLdelCart.aspx.cs">
+      <DependentUpon>XLdelCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeXQ\XLeditCart.aspx.cs">
+      <DependentUpon>XLeditCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="indexWeb.aspx.cs">
       <DependentUpon>indexWeb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="indexWeb.aspx.designer.cs">
       <DependentUpon>indexWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="product-ad.aspx.cs">
       <DependentUpon>product-ad.aspx</DependentUpon>
@@ -1955,6 +2207,17 @@
     <Compile Include="category-add-ad.aspx.designer.cs">
       <DependentUpon>category-add-ad.aspx</DependentUpon>
     </Compile>
+    <Compile Include="XuanQuyen\Category.cs" />
+    <Compile Include="XuanQuyen\Color.cs" />
+    <Compile Include="XuanQuyen\Color_BUS.cs" />
+    <Compile Include="XuanQuyen\MakeConnection.cs" />
+    <Compile Include="XuanQuyen\Order.cs" />
+    <Compile Include="XuanQuyen\Order_detail.cs" />
+    <Compile Include="XuanQuyen\Product.cs" />
+    <Compile Include="XuanQuyen\ProductBUS.cs" />
+    <Compile Include="XuanQuyen\Product_Detail.cs" />
+    <Compile Include="XuanQuyen\Product_detailBus.cs" />
+    <Compile Include="XuanQuyen\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\scss\sb-admin.scss" />
@@ -2111,6 +2374,22 @@
     <Content Include="Admin\vendor\jquery\jquery.min.map" />
     <Content Include="Admin\vendor\jquery\jquery.slim.min.map" />
     <Content Include="Admin.Master" />
+    <Content Include="HomeXQ\MasterPage.master" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.eot" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.ttf" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff2" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.eot" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.ttf" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff2" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.eot" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.ttf" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff" />
+    <Content Include="HomeXQ\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff2" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\fonts\slick.eot" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\fonts\slick.ttf" />
+    <Content Include="HomeXQ\plugins\slick-1.8.0\fonts\slick.woff" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
