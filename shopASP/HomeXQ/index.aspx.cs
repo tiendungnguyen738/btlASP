@@ -25,7 +25,7 @@ public partial class Home_index : System.Web.UI.Page
             tmp +="<div class=\"featured_slider_item\">";
             tmp +="<div class=\"border_active\"></div>";
             tmp +="<div class=\"product_item discount d-flex flex-column align-items-center justify-content-center text-center\">";
-            tmp += "<div class=\"product_image d-flex flex-column align-items-center justify-content-center\"><img style='width:115px;height:115px;' src=\"images/"+p.image+"\" alt=\"\" /></div>";
+            tmp += "<div class=\"product_image d-flex flex-column align-items-center justify-content-center\"><img style='width:115px;height:115px;' src=\"/Web/images/"+p.image+"\" alt=\"\" /></div>";
             tmp +="<div class=\"product_content\">";
             tmp += "<div class=\"product_price discount\"><span>" + p.price.ToString("#,##0").Replace(',', '.') + " đ</span></div>";
             tmp +="<div class=\"product_name\"><div><a href=\"product.html\">"+p.product_name+"...</a></div></div>";
@@ -65,7 +65,7 @@ public partial class Home_index : System.Web.UI.Page
             tmp += "<div class=\"featured_slider_item\">";
             tmp += "<div class=\"border_active\"></div>";
             tmp += "<div class=\"product_item discount d-flex flex-column align-items-center justify-content-center text-center\">";
-            tmp += "<div class=\"product_image d-flex flex-column align-items-center justify-content-center\"><img style='width:115px;height:115px;' src=\"images/" + p.image + "\" alt=\"\" /></div>";
+            tmp += "<div class=\"product_image d-flex flex-column align-items-center justify-content-center\"><img style='width:115px;height:115px;' src=\"/Web/images/" + p.image + "\" alt=\"\" /></div>";
             tmp += "<div class=\"product_content\">";
             tmp += "<div class=\"product_price discount\">$225<span>$300</span></div>";
             tmp += "<div class=\"product_name\"><div><a href=\"product.html\">"+p.product_name+"...</a></div></div>";
@@ -75,7 +75,7 @@ public partial class Home_index : System.Web.UI.Page
             tmp += "<input type=\"radio\" name=\"product_color\" style=\"background:#000000\">";
             tmp += "<input type=\"radio\" name=\"product_color\" style=\"background:#999999\">";
             tmp += "</div>";
-            tmp += "<button class=\"product_cart_button\"><a href='/shop/Home/product_detail.aspx?product_id=" + p.product_id + "&category_id=" + p.category_id + "' tabindex='0'>Xem chi tiết</a></button>";
+            tmp += "<button class=\"product_cart_button\"><a href='/HomeXQ/product_detail.aspx?product_id=" + p.product_id + "&category_id=" + p.category_id + "' tabindex='0'>Xem chi tiết</a></button>";
             tmp += "</div>";
             tmp += "</div>";
             tmp += "<div class=\"product_fav\"><i class=\"fas fa-heart\"></i></div>";
@@ -104,7 +104,7 @@ public partial class Home_index : System.Web.UI.Page
            tmp +="<div class=\"arrivals_slider_item\">";
             tmp +="<div class=\"border_active\"></div>";
             tmp +="<div class=\"product_item is_new d-flex flex-column align-items-center justify-content-center text-center\">";
-            tmp += "<div class=\"product_image d-flex flex-column align-items-center justify-content-center\"><img style='width:115px;height:115px;' src=\"images/" + p.image + "\" alt=\"\" /></div>";
+            tmp += "<div class=\"product_image d-flex flex-column align-items-center justify-content-center\"><img style='width:115px;height:115px;' src=\"/Web/images/" + p.image + "\" alt=\"\" /></div>";
             tmp +="<div class=\"product_content\">";
             tmp +="<div class=\"product_price\">$225</div>";
             tmp +="<div class=\"product_name\"><div><a href=\"product.html\">"+p.product_name+"</a></div></div>";
@@ -114,7 +114,7 @@ public partial class Home_index : System.Web.UI.Page
             tmp +="<input type=\"radio\" name=\"product_color\" style=\"background:#000000\">";
             tmp +="<input type=\"radio\" name=\"product_color\" style=\"background:#999999\">";
             tmp +="</div>";
-            tmp += "<button class=\"product_cart_button\"><a href='/shop/Home/product_detail.aspx?product_id=" + p.product_id + "&category_id=" + p.category_id + "' tabindex='0'>Xem chi tiết</a></button>";
+            tmp += "<button class=\"product_cart_button\"><a href='/HomeXQ/product_detail.aspx?product_id=" + p.product_id + "&category_id=" + p.category_id + "' tabindex='0'>Xem chi tiết</a></button>";
             tmp +="</div>";
             tmp +="</div>";
             tmp +="<div class=\"product_fav\"><i class=\"fas fa-heart\"></i></div>";

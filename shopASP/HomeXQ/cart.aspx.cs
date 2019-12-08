@@ -34,7 +34,7 @@ public partial class Home_cart : System.Web.UI.Page
                 Color c = color.GetColor(pd.product_detail_id);
                 tmp += "<ul class='cart_list'>";
                 tmp += "<li class='cart_item clearfix'>";
-                tmp += "<div class='cart_item_image'><img style='width:115px;height:115px;' src='images/"+pd.image+"' alt=''></div>";
+                tmp += "<div class='cart_item_image'><img style='width:115px;height:115px;' src='/Web/images/"+pd.image+"' alt=''></div>";
                 tmp += "<div class='cart_item_info d-flex flex-md-row flex-column justify-content-between'>";
                 tmp += "<div class='cart_item_name cart_info_col'>";
                 tmp += "<div class='cart_item_title'>Tên sản phẩm</div>";

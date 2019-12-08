@@ -11,7 +11,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(Home/Style/images/computer.jpg);
+	background: url(HomeXQ/Style/images/computer.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: sans-serif;
@@ -99,7 +99,7 @@ h1 {
 </head>
 <body>
 	<div class="loginbox">
-		<img src="Home/Style/images/login.png" alt="avata" class="avata"/>
+		<img src="HomeXQ/Style/images/login.png" alt="avata" class="avata"/>
 		<h1>Login Here</h1>
 		<form id="form1" method="post" runat="server">
 			<p>Username</p>
@@ -112,7 +112,7 @@ h1 {
             <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
             <a href="#">Lost your password?</a>
             <br /> 
-            <a href="web/register.aspx">Don't have an acount</a>
+            <a href="/register.aspx">Don't have an acount</a>
 		</form>
 	</div>
 </body>

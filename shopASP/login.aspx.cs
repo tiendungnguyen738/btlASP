@@ -25,7 +25,7 @@ namespace shopASP
             {
                 Session["name"] = txtusername.Text;
                 Session["allow"] = true;
-                Response.Redirect("/category-ad.aspx");
+                Response.Redirect("/indexAdmin.aspx");
             }
             else if (a == 2)
             {

@@ -1867,13 +1867,17 @@
     <Content Include="HomeXQ\XlAddOrder.aspx" />
     <Content Include="HomeXQ\XLdelCart.aspx" />
     <Content Include="HomeXQ\XLeditCart.aspx" />
+    <Content Include="indexAdmin.aspx" />
     <Content Include="indexWeb.aspx" />
     <Content Include="login.aspx" />
     <Content Include="product-ad.aspx" />
     <Content Include="product-add-ad.aspx" />
     <Content Include="product-detail-ad.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="Web.config" />
     <Content Include="category-add-ad.aspx" />
+    <Content Include="Web\css\font-awesome.min.css" />
+    <Content Include="Web\css\style.css" />
     <Content Include="Web\images\adv_1.png" />
     <Content Include="Web\images\adv_2.png" />
     <Content Include="Web\images\adv_3.png" />
@@ -2033,6 +2037,7 @@
     <Content Include="Web\styles\shop_styles.css" />
     <Content Include="Web\Style\images\computer.jpg" />
     <Content Include="Web\Style\images\login.png" />
+    <Content Include="Web\w3layouts-License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.Master.cs">
@@ -2153,6 +2158,13 @@
       <DependentUpon>XLeditCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="indexAdmin.aspx.cs">
+      <DependentUpon>indexAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexAdmin.aspx.designer.cs">
+      <DependentUpon>indexAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="indexWeb.aspx.cs">
       <DependentUpon>indexWeb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2192,6 +2204,13 @@
     <Compile Include="product_detail.cs" />
     <Compile Include="product_detail_hienthi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="thong_tin_dienthoai.cs" />
     <Compile Include="Web.Master.cs">
       <DependentUpon>Web.Master</DependentUpon>
@@ -2413,6 +2432,11 @@
     <Content Include="Web\plugins\slick-1.8.0\fonts\slick.eot" />
     <Content Include="Web\plugins\slick-1.8.0\fonts\slick.ttf" />
     <Content Include="Web\plugins\slick-1.8.0\fonts\slick.woff" />
+    <Content Include="Web\fonts\fontawesome-webfont.eot" />
+    <Content Include="Web\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Web\fonts\fontawesome-webfont.woff" />
+    <Content Include="Web\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Web\fonts\FontAwesome.otf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
