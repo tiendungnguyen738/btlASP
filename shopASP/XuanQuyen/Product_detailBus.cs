@@ -71,6 +71,7 @@ public class Product_detailBus
             pd.product_name = (string)rd["product_name"];
             pd.price = (int)rd["price"];
             pd.image = (string)rd["image"];
+            pd.descriptions = (string)rd["descriptions"];
         }
         //Dong bo quan ly ket noi
         conn.Close();

@@ -4,14 +4,14 @@
     <div class="card mb-3">
         <div class="card-header">
             <i class="fas fa-table"></i>
-            QUẢN LÝ SẢN PHẨM
+            QUẢN LÝ ĐIỆN THOẠI
         </div>
 
          <%--------------------------------------------tìm kiếm điện thoại----------------------%>
         <hr />
-        <h4 style="margin-left: 3%; margin-top: 1%;color: forestgreen;">Tìm Kiếm Sản Phẩm</h4>
+        <h4 style="margin-left: 3%; margin-top: 1%;color: forestgreen;">Tìm Kiếm Điện Thoại</h4>
         <div class="form-group row" style="margin-left: 3%;background-color: #1f23a736; width: 53%;">
-            <label for="tensanpham" class="col-form-label" style="margin-left: 3%;">Tên Sản Phẩm</label>
+            <label for="tensanpham" class="col-form-label" style="margin-left: 3%;">Tên Điện Thoại</label>
             <div style="margin-left: 1%;">
                 <asp:TextBox placeholder="Nhập Tên Sản Phẩm ..........." ID="tensanpham" runat="server" class="form-control" Width="169%"></asp:TextBox>
             </div>
@@ -24,7 +24,7 @@
         <%-------------------------------------------danh sách điện thoại-------------------------------------------------------%>
 
         <asp:Button PostBackUrl="~/product-add-ad.aspx" Text="Thêm Điện Thoại" runat="server" class="btn btn-success" Width="20%"/>
-        <h4 style="margin-left: 3%; margin-top: 1%;color: forestgreen;">Danh Sách Sản Phẩm</h4>
+        <h4 style="margin-left: 3%; margin-top: 1%;color: forestgreen;">Danh Sách Điện Thoại</h4>
          <div style="color: red; margin-left: 37%;margin-top: -3%; font-size: 24px;font-weight: bolder">
                     <asp:Label ID="thongbao" runat="server"></asp:Label>
         </div>

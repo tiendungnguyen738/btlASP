@@ -21,7 +21,7 @@ public class User
     public User()
     {
     }
-    public User(string fullnam, string addr,int gender,string id2,int role,string email,string username1, string pass,string phone)
+    public User(string fullnam, string addr,int gender,string id2,int role,string email,string username1, string pass,string phon)
     {
         full_name = fullnam;
         address = addr;
@@ -31,6 +31,6 @@ public class User
         this.email = email;
         username = username1;
         password = pass;
-        phone = phone;
+        phone = phon;
     }
 }
